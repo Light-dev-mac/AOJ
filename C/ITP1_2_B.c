@@ -7,7 +7,7 @@ int main()
     {
         printf("Yes\n");
     }
-    else 
+    else
     {
         printf("No\n");
     }
