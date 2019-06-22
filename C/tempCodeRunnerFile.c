@@ -3,6 +3,11 @@ int main()
 {
     int a, b;
     scanf("%d %d", &a, &b);
-    printf("%d %d\n", a * b, 2 * a + 2 * b);
+    if (a == b)
+        printf("a == b\n");
+    else if (a < b)
+        printf("a < b\n");
+    else
+        printf("a > b\n");
     return 0;
 }
