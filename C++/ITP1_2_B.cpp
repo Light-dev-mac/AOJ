@@ -12,4 +12,4 @@ int main()
     {
         cout << "No" << endl;
     }
-}1
+}
