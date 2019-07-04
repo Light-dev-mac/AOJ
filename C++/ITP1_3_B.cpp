@@ -1,15 +1,12 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int i=1;
-    int x;
-    while(true){
-        cin>>x;
-        if(x==0) break;
-        else{
-            cout << "Case "<<i<<": "<<x<<endl;
-            i++;
-        }
-
+int main()
+{
+    int num;
+    int i = 1;
+    while (cin >> num && num != 0)
+    {
+        cout << "Case " << i << ": " << num << endl;
+        i++;
     }
 }
