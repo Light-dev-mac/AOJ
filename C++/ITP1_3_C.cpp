@@ -1,15 +1,19 @@
-#include<iostream>
-#include<algorithm>
+#include <iostream>
 using namespace std;
-
-int main(){
-    int x,y;
-    while(true){
-        cin>>x>>y;
-        if(x==0&&y==0) break;
-        else{
-            if(x>y)swap(x,y);
-            cout<<x<<" "<<y<<endl;
-        }
+int main()
+{
+    int a, b;
+    while (1)
+    {
+        cin >> a >> b;
+        if (a == 0 && b == 0)
+            break;
+        else
+        {
+            if (a > b)
+                cout << b << " " << a << endl;
+            else
+                cout << a << " " << b << endl;
+                }
     }
 }
